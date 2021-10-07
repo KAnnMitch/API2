@@ -1,0 +1,68 @@
+
+#header { 
+ display: flex;
+ justify-content: center;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 29pt;
+color:darkblue
+}
+
+#pargraph1 { 
+    display: flex;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 15pt;
+}
+
+#button1{ 
+    display: flex;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+#submit{ 
+    display: flex;
+    justify-content: center;
+    height: 25px;
+    
+}
+
+#header3 { 
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 15pt;
+}
+
+Please put this CSS in your css file or html head.
+.custom-shape-divider-bottom-1633635619 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1633635619 svg {
+    position: relative;
+    display: block;
+    width: calc(208% + 1.3px);
+    height: 292px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1633635619 .shape-fill {
+    fill: #192D9C;
+}
+
+#clock { 
+   display: flex;
+   justify-content: right;
+   margin-top: -12% ;
+}
